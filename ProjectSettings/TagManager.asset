@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bullet_despawn
+  - bullet
+  - enemy
+  - UI
+  - HP
+  - enemy_manager
+  - round
   layers:
   - Default
   - TransparentFX
@@ -40,6 +47,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Turret_Gun
+    uniqueID: 2166193513
     locked: 0
   - name: Turret_Base
     uniqueID: 3012989559
